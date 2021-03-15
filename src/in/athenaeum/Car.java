@@ -17,7 +17,7 @@ public class Car implements Vehicle {
         System.out.println("Car: honking....");
     }
 
-    @Override
+//    @Override
     public void printOwnerName() {
         System.out.println(this.owner);
     }

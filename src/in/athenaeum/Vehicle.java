@@ -7,7 +7,9 @@ public interface Vehicle {
         System.out.println("Default: honk...");
     };
 
-    default void printOwnerName() {
+    //  cannot be overridden by the implementing classes
+    //  should be accessed from interface
+    static void printOwnerName() {
         System.out.println("Default: No information");
     }
 }
